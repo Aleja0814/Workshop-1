@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: greenyellow;
+    margin-top: 10%
+    
+}
+main{
+    background-color: white;
+}
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px ;
+    font-style: italic;
+}
+input{
+    width: 70px;
+}
+button{
+    font-size:20px;
+}
+button:hover{
+    font-style: oblique;
+    background-color: green;
+}
+
+#indice::before{
+content:"RESULTADO: ";
+color:rgb(68, 105, 12);
+}
+#condicion::before{
+    content:"CONDICIÓN FÍSICA: ";
+    color:rgb(68, 105, 12)
+    }
+h2,h3{
+    font-size: 25px;
+}
+h1{
+    border-bottom: 2px solid black;
+    color:rgb(68, 105, 12);
+}
+footer{
+    text-align: right;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
